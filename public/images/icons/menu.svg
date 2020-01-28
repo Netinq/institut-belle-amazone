@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="62" viewBox="0 0 68 62">
+  <g id="Groupe_18" data-name="Groupe 18" transform="translate(-57 -55)">
+    <line id="Ligne_10" data-name="Ligne 10" x2="62" transform="translate(59.5 56.5)" fill="none" stroke="#e1e3db" stroke-linecap="round" stroke-width="3"/>
+    <line id="Ligne_11" data-name="Ligne 11" x2="49" transform="translate(66.5 71.5)" fill="none" stroke="#e1e3db" stroke-linecap="round" stroke-width="3"/>
+    <line id="Ligne_12" data-name="Ligne 12" x2="62" transform="translate(59.5 86.5)" fill="none" stroke="#e1e3db" stroke-linecap="round" stroke-width="3"/>
+    <text id="menu" transform="translate(57 112)" fill="#e1e3db" font-size="23" font-family="ArialMT, Arial"><tspan x="0" y="0">MENU</tspan></text>
+  </g>
+</svg>

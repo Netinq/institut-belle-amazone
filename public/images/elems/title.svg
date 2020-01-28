@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="918" height="210" viewBox="0 0 918 210">
+  <defs>
+    <filter id="belle_amazone" x="0" y="33" width="918" height="177" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="institut_de_beauté" x="12" y="0" width="400" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dx="13" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.82"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_17" data-name="Groupe 17" transform="translate(-386 -214)">
+    <g transform="matrix(1, 0, 0, 1, 386, 214)" filter="url(#belle_amazone)">
+      <text id="belle_amazone-2" data-name="belle amazone" transform="translate(5 157)" fill="#fff" font-size="110" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" opacity="0.75"><tspan x="0" y="0">BELLE AMAZONE</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 386, 214)" filter="url(#institut_de_beauté)">
+      <text id="institut_de_beauté-2" data-name="institut de beauté" transform="translate(14 45)" fill="#fff" font-size="40" font-family="SegoeUI, Segoe UI" opacity="0.7"><tspan x="0" y="0">INSTITUT DE BEAUTÉ</tspan></text>
+    </g>
+  </g>
+</svg>

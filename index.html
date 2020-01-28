@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head prefix='my_namespace: http://ogp.me/ns/profile#'>
+  
+    <!-- Default meta -->
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <meta name='author' content='Quentin Sar, Netinq'>
+    <meta name='owner' content=''>
+    <meta name='subject' content="About the institute">
+    
+    <meta name='identifier-URL' content='belle-amazone.fr'>
+    <meta name='keywords' content='quentin, sar'>
+    <meta name="description" content="Venez découvrir l'Institut '' Belle Amazone '' à Audenge. Beauté & Bien être homme et femme. Patricia Estheticienne diplômée en Esthetique et spécialisée dans le Bien Etre vous reçoit sur RDV dans son univers convivial et chaleureux pour vous proposer un moment de détente bien mérité par ses massages  ou pour une pause agréable avec ses soins visages & corps en utilisant des produits naturels certifié BIO mais également des soins des mains et des pieds , pose de vernis ainsi que des épilations avec les différentes cires Perron Rigot adaptées à chaque zone... Je reste à votre écoute afin de vous apporter des conseils, des soins adaptés et personnalisés, je me déplace aussi en structures extérieures ( spa, personnes fragilisées...) ou à votre domicile pour certains soins si vous ne pouvez pas vous déplacer à l'institut car ma priorité est votre bien-être avant tout !">
+    <meta name='reply-to' content=''>
+    
+    <meta name='language' content='FR'>
+    <meta name='target' content='all'>
+    <meta name='theme-color' content='#E1E3DB'>
+  
+    <link rel='shortcut icon' type='image/png' href='assets/img/logo.png'>
+  
+    <!-- Twitter Card meta -->
+    <meta name='twitter:card' content='summary'>
+    <meta name='twitter:site' content='@Netinq'>
+    <meta name='twitter:url' content='https://sarquentin.fr' />
+    <meta name='twitter:domain' content='sarquentin.fr' />
+    
+    <!-- Open Graph meta -->
+    <meta property='og:title' content='Institut Belle Amazone, à Audenge' />
+    <meta property="og:description" content="Venez découvrir l'Institut '' Belle Amazone '' à Audenge. Beauté & Bien être homme et femme. Patricia Estheticienne diplômée en Esthetique et spécialisée dans le Bien Etre vous reçoit sur RDV dans son univers convivial et chaleureux pour vous proposer un moment de détente bien mérité par ses massages  ou pour une pause agréable avec ses soins visages & corps en utilisant des produits naturels certifié BIO mais également des soins des mains et des pieds , pose de vernis ainsi que des épilations avec les différentes cires Perron Rigot adaptées à chaque zone... Je reste à votre écoute afin de vous apporter des conseils, des soins adaptés et personnalisés, je me déplace aussi en structures extérieures ( spa, personnes fragilisées...) ou à votre domicile pour certains soins si vous ne pouvez pas vous déplacer à l'institut car ma priorité est votre bien-être avant tout !" />
+    <meta property='og:type' content='profile' />
+    <meta property='og:url' content='https://sarquentin.fr' />
+    <meta property='og:image' content='https://sarquentin.fr/assets/img/meta.png' />
+    <meta property='og:site_name' content='Institut Belle Amazone, à Audenge' />
+    <meta property='author' content='Institut Belle Amazone, à Audenge' />
+    <meta property='profile:gender' content='male' />
+
+    <!-- IOS meta -->
+    <meta name="apple-mobile-web-app-title" content="Institut Belle Amazone, à Audenge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="apple-touch-startup-image" href="assets/img/logo.png">
+  
+    <title>Institut de beauté Belle Amazone, situé à Audenge</title>
+    
+    <link rel='stylesheet' href='public/stylesheet/master.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="public/stylesheet/sections/home.css">
+
+    <script src="public/scripts/display.js"></script>
+
+  </head>
+<body>
+  <header>
+    <ul id="laptop" class="d-none d-md-flex">
+      <a href="#"><li>l'institut</li></a>
+      <a href="#"><li>les soins</li></a>
+      <a href="#"><li>les tarifs</li></a>
+      <a href="#"><li>bon cadeau</li></a>
+      <a href="#"><li>contact</li></a>
+    </ul>
+    <div class="mobile d-block d-md-none">
+      <img 
+      id="menu" 
+      alt="Burger menu icon" 
+      src="public/images/icons/menu.svg"
+      onclick="display('menu-mobile', 'menu')"
+      />
+      <ul id="menu-mobile" class="hidden">
+        <li>
+          <img 
+          id="close" 
+          alt="Burger menu icon close" 
+          src="public/images/icons/close.svg"
+          onclick="display('menu', 'menu-mobile')"
+          />
+        </li>
+        <a href="#" onclick="display('menu', 'menu-mobile')"><li>l'institut</li></a>
+        <a href="#" onclick="display('menu', 'menu-mobile')"><li>les soins</li></a>
+        <a href="#" onclick="display('menu', 'menu-mobile')"><li>les tarifs</li></a>
+        <a href="#" onclick="display('menu', 'menu-mobile')"><li>bon cadeau</li></a>
+        <a href="#" onclick="display('menu', 'menu-mobile')"><li>contact</li></a>
+      </ul>
+    </div>
+  </header>
+  <section id="home" class="row">
+    <img 
+    id="background-over" 
+    class="d-none d-md-block"
+    alt="Leaf" 
+    src="public/images/background-over.png"
+    />
+    <div class="main col-md-6 offset-md-3 col-xs-10 offset-xs-1">
+      <img id="title" alt="Institut de beauté, Belle Amazone" src="public/images/elems/title.svg">
+      <a href="#"><button id="discover">découvrir les soins <img src="public/images/icons/arrow-right.svg"></button></a>
+    </div>
+    <div class="footer">
+      <img id="scroll" alt="Scroll arrow down" src="public/images/icons/scroll.svg">
+    </div>
+  </section>
+</body>
+</html>
