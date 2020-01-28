@@ -20,6 +20,7 @@ header
   right: 0;
   top: 0;
   z-index: 1000;
+  transition: all .3s;
 }
 header #laptop 
 {
@@ -37,6 +38,7 @@ header #laptop li
   line-height: 50px;
   text-align: center;
   color: #ffffff;
+  transition: all .3s;
   text-transform: uppercase;
 }
 header ul a, header ul a:active, header ul a:visited, header ul a:hover
@@ -80,6 +82,7 @@ header .mobile #menu-mobile li
   text-align: center;
   background-color: rgba(49, 49, 49, 0.9);
   font-size: 1.2em;
+  transition: all .3s;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
