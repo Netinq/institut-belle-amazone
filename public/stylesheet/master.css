@@ -72,13 +72,13 @@ header .mobile #menu-mobile
   text-align: right;
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 100vw;
   padding: 0;
 }
 header .mobile #menu-mobile li
 {
   text-align: center;
-  background-color: rgba(49, 49, 49, 0.7);
+  background-color: rgba(49, 49, 49, 0.9);
   font-size: 1.2em;
   text-transform: uppercase;
   color: #ffffff;
