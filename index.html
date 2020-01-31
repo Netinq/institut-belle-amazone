@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head prefix='my_namespace: http://ogp.me/ns/profile#'>
+  <head>
   
     <!-- Default meta -->
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
     <meta name='author' content='Quentin Sar, Netinq'>
-    <meta name='owner' content=''>
+    <meta name='owner' content='Institut Belle Amazone'>
     <meta name='subject' content="About the institute">
     
-    <meta name='identifier-URL' content='belle-amazone.fr'>
+    <meta name='identifier-URL' content='institut-belle-amazone.fr'>
     <meta name='keywords' content='quentin, sar'>
     <meta name="description" content="Venez découvrir l'Institut '' Belle Amazone '' à Audenge. Beauté & Bien être homme et femme. Patricia Estheticienne diplômée en Esthetique et spécialisée dans le Bien Etre vous reçoit sur RDV dans son univers convivial et chaleureux pour vous proposer un moment de détente bien mérité par ses massages  ou pour une pause agréable avec ses soins visages & corps en utilisant des produits naturels certifié BIO mais également des soins des mains et des pieds , pose de vernis ainsi que des épilations avec les différentes cires Perron Rigot adaptées à chaque zone... Je reste à votre écoute afin de vous apporter des conseils, des soins adaptés et personnalisés, je me déplace aussi en structures extérieures ( spa, personnes fragilisées...) ou à votre domicile pour certains soins si vous ne pouvez pas vous déplacer à l'institut car ma priorité est votre bien-être avant tout !">
     <meta name='reply-to' content=''>
@@ -19,20 +19,16 @@
     <meta name='target' content='all'>
     <meta name='theme-color' content='#E1E3DB'>
   
-    <link rel='shortcut icon' type='image/png' href='assets/img/logo.png'>
-  
     <!-- Twitter Card meta -->
     <meta name='twitter:card' content='summary'>
-    <meta name='twitter:site' content='@Netinq'>
-    <meta name='twitter:url' content='https://sarquentin.fr' />
-    <meta name='twitter:domain' content='sarquentin.fr' />
+    <meta name='twitter:url' content='https://institut-belle-amazone.fr' />
+    <meta name='twitter:domain' content='institut-belle-amazone.fr' />
     
     <!-- Open Graph meta -->
     <meta property='og:title' content='Institut Belle Amazone, à Audenge' />
     <meta property="og:description" content="Venez découvrir l'Institut '' Belle Amazone '' à Audenge. Beauté & Bien être homme et femme. Patricia Estheticienne diplômée en Esthetique et spécialisée dans le Bien Etre vous reçoit sur RDV dans son univers convivial et chaleureux pour vous proposer un moment de détente bien mérité par ses massages  ou pour une pause agréable avec ses soins visages & corps en utilisant des produits naturels certifié BIO mais également des soins des mains et des pieds , pose de vernis ainsi que des épilations avec les différentes cires Perron Rigot adaptées à chaque zone... Je reste à votre écoute afin de vous apporter des conseils, des soins adaptés et personnalisés, je me déplace aussi en structures extérieures ( spa, personnes fragilisées...) ou à votre domicile pour certains soins si vous ne pouvez pas vous déplacer à l'institut car ma priorité est votre bien-être avant tout !" />
     <meta property='og:type' content='profile' />
-    <meta property='og:url' content='https://sarquentin.fr' />
-    <meta property='og:image' content='https://sarquentin.fr/assets/img/meta.png' />
+    <meta property='og:url' content='https://institut-belle-amazone.fr' />
     <meta property='og:site_name' content='Institut Belle Amazone, à Audenge' />
     <meta property='author' content='Institut Belle Amazone, à Audenge' />
     <meta property='profile:gender' content='male' />
@@ -41,8 +37,6 @@
     <meta name="apple-mobile-web-app-title" content="Institut Belle Amazone, à Audenge">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="apple-touch-icon" href="assets/img/logo.png">
-    <link rel="apple-touch-startup-image" href="assets/img/logo.png">
   
     <title>Institut de beauté Belle Amazone, situé à Audenge</title>
     
@@ -50,6 +44,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="public/stylesheet/sections/home.css">
+    <link rel="stylesheet" href="public/stylesheet/sections/institut.css">
 
     <script src="public/scripts/display.js"></script>
 
@@ -57,7 +52,7 @@
 <body>
   <header>
     <ul>
-      <a href="#"><li>l'institut</li></a>
+      <a href="#institut"><li>l'institut</li></a>
       <a href="#"><li>soins</li></a>
       <a href="#"><li>tarifs</li></a>
       <a href="#"><li>cadeau</li></a>
@@ -73,7 +68,7 @@
     />
     <div class="main col-md-6 offset-md-3 col-xs-10 offset-xs-1 col-sm-8 offset-sm-2">
       <img id="title" alt="Institut de beauté, Belle Amazone" src="public/images/elems/title.svg">
-      <a href="#"><button id="discover">découvrir les soins <img src="public/images/icons/arrow-right.svg"></button></a>
+      <a href="#institut"><button id="discover">découvrir les soins <img src="public/images/icons/arrow-right.svg"></button></a>
     </div>
     <!-- <div class="footer d-none d-xs-block">
       <img id="scroll" alt="Scroll arrow down" src="public/images/icons/scroll.svg">
@@ -83,7 +78,7 @@
         <img class="icon" alt="Phone icon" src="public/images/icons/phone.svg">
         <div class="information">
           <a href="tel:+33668758066">06.68.75.80.66</a>
-          <a href="mailto:belamazone@orange.fr">belamazone@orange.fr</a>
+          <a href="mailto:belamazone@orange.fr" style="font-size: .7em;">belamazone@orange.fr</a>
         </div>
       </div>
       <div class="content col-4">
@@ -105,37 +100,23 @@
       </div>
     </div>
   </section>
-  <section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+  <section id="institut" class="row">
+    <div class="present col-8 offset-2 col-md-4 offset-md-2">
+      <h2>l'institut</h2>
+      <p>
+        Venez découvrir l'Institut " Belle Amazone " à Audenge.
+Beauté & Bien être homme et femme.
+Patricia Estheticienne diplômée en Esthetique et spécialisée dans le Bien Etre vous reçoit sur RDV dans son univers convivial et chaleureux pour vous proposer un moment de détente bien mérité par ses massages  ou pour une pause agréable avec ses soins visages & corps en utilisant des produits naturels certifié BIO  
+mais également des soins des mains et des pieds , pose de vernis ainsi que des épilations avec les différentes cires Perron Rigot adaptées à chaque zone...
+Je reste à votre écoute afin de vous apporter des conseils, des soins adaptés et personnalisés, je me déplace aussi en structures extérieures ( spa, personnes fragilisées...) ou à votre domicile pour certains soins si vous ne pouvez pas vous déplacer à l'institut car ma priorité est votre bien-être avant tout !
+      </p>
+    </div>
+    <div class="galerie col-8 offset-2 col-md-4 offset-md-0">
+      <img alt="Institut's image" src="public/images/institut-1.png" class="ver"/>
+      <img alt="Institut's image" src="public/images/institut-2.png" class="hor"/>
+      <img alt="Institut's image" src="public/images/institut-3.png" class="hor"/>
+      <img alt="Institut's image" src="public/images/institut-4.png" class="ver bottom-right"/>
+    </div>
   </section>
 </body>
 </html>

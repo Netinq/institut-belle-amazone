@@ -6,6 +6,10 @@ body
   left: 0;
   overflow-x: hidden;
 }
+html
+{
+  scroll-behavior: smooth;
+}
 
 section
 {
@@ -64,11 +68,19 @@ header ul a:hover li
 {
   position: absolute !important;
   bottom: 0;
+  margin-right: 0 !important;
   height: 110px;
   background-color: rgba(74, 175, 158, 0.25);
   padding: 0 !important;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+@media screen and (max-width: 768px)
+{
+  .info
+  {
+    right: 0;
+  }
 }
 .info .content
 {
@@ -99,7 +111,7 @@ header ul a:hover li
   white-space: pre-line;
   margin-left: 15Px;
   color: #ffffff;
-  font-size: .8em;
+  font-size: .9em;
   text-decoration: none;
   padding-top: 5px;
   display: inline-block;
@@ -123,4 +135,29 @@ header ul a:hover li
 {
   margin-right: 5px;
   height: 15px;
+}
+
+@font-face {
+  font-family: "Corbel";
+  src: url("../fonts/CORBEL.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+ }
+ @font-face {
+   font-family: "Corbel";
+   src: url("../fonts/Corbel\ Bold.ttf") format("truetype");
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+  font-family: "Corbel";
+  src: url("../fonts/Corbel\ Bold\ Italic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Corbel";
+  src: url("../fonts/Corbel\ Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }

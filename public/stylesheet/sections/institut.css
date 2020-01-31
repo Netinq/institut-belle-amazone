@@ -1,0 +1,88 @@
+#institut
+{
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,255,0.75), rgba(255,255,255,0.75)), 
+  url('../../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+}
+
+#institut .present
+{
+  padding-top: 75px;
+  font-family: "Corbel";
+}
+#institut .present h2
+{
+  color: #56A53C;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+#institut .present p
+{
+  font-size: .9em;
+  margin-top: 25px;
+}
+@media screen and (max-width: 767px)
+{
+  #institut .present h2
+  {
+    letter-spacing: 5px;
+  }
+  #institut .galerie
+  {
+    padding-top: 0 !important;
+  }
+}
+#institut .galerie
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  padding-top: 75px;
+  list-style: none;
+}
+#institut .galerie img
+{
+  padding: 5px;
+}
+#institut .galerie .ver
+{
+  height: calc(80% * .6);
+  width: calc(100% * .4);
+}
+#institut .galerie .hor
+{
+  height: calc(100% * .4);
+  width: calc(100% * .6);
+}
+@media screen and (max-width: 991px)
+{
+  #institut .galerie
+  {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+  }
+  #institut .galerie .ver
+  {
+    height: calc(100% * .6);
+    width: calc(100% * .45);
+  }
+  #institut .galerie .hor
+  {
+    height: calc(100% * .5);
+    width: calc(100% * .55);
+  }
+}
+#institut .galerie .bottom-right
+{
+  margin-top: -9.25%
+}

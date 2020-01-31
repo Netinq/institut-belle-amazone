@@ -1,5 +1,6 @@
 [
   {
+    "image_name" : "image-1",
     "nom" : "Massage",
     "description" : "Voici la description du massage"
   }
