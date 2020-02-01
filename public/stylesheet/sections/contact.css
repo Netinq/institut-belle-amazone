@@ -84,7 +84,7 @@ form
   color: #56A53C;
   background-color: #ffffff;
 }
-button
+#contact .form button
 {
   display: flex;
   background-color: #56A53C !important;
@@ -94,7 +94,7 @@ button
   cursor: pointer;
   box-sizing: border-box;
 }
-button:focus, button:active
+#contact .form button:focus, button:active
 {
   border: none;
   outline: none;
