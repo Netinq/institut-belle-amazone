@@ -28,6 +28,14 @@
   font-size: .9em;
   margin-top: 25px;
 }
+@media screen and (min-width: 1200px)
+{ 
+  #institut .present p
+  {
+    font-size: 1.1em;
+    margin-top: 50px;
+  }
+}
 @media screen and (max-width: 767px)
 {
   #institut .present h2
