@@ -47,6 +47,7 @@
 
     <link rel="stylesheet" href="public/stylesheet/sections/home.css">
     <link rel="stylesheet" href="public/stylesheet/sections/institut.css">
+    <link rel="stylesheet" href="public/stylesheet/sections/contact.css">
 
     <script src="public/scripts/display.js"></script>
 
@@ -58,16 +59,16 @@
       <a href="#"><li>soins</li></a>
       <a href="#"><li>tarifs</li></a>
       <a href="#"><li>cadeau</li></a>
-      <a href="#"><li>contact</li></a>
+      <a href="#contact"><li>contact</li></a>
     </ul>
   </header>
   <section id="home" class="row">
-    <img 
+    <!-- <img 
     id="background-over" 
     class="d-none d-md-block"
     alt="Leaf" 
     src="public/images/background-over.png"
-    />
+    /> -->
     <div class="main col-md-6 offset-md-3 col-xs-10 offset-xs-1 col-sm-8 offset-sm-2">
       <img id="title" alt="Institut de beauté, Belle Amazone" src="public/images/elems/title.svg">
       <a href="#institut"><button id="discover">découvrir les soins <img src="public/images/icons/arrow-right.svg"></button></a>
@@ -80,7 +81,7 @@
         <img class="icon" alt="Phone icon" src="public/images/icons/phone.svg">
         <div class="information">
           <a href="tel:+33668758066">06.68.75.80.66</a>
-          <a href="mailto:belamazone@orange.fr" style="font-size: .7em;">belamazone@orange.fr</a>
+          <a href="mailto:belamazone@orange.fr">belamazone@orange.fr</a>
         </div>
       </div>
       <div class="content col-4">
@@ -118,6 +119,51 @@ Je reste à votre écoute afin de vous apporter des conseils, des soins adaptés
       <img alt="Institut's image" src="public/images/institut-2.png" class="hor"/>
       <img alt="Institut's image" src="public/images/institut-3.png" class="hor"/>
       <img alt="Institut's image" src="public/images/institut-4.png" class="ver bottom-right"/>
+    </div>
+  </section>
+  <section id="contact" class="row">
+    <div class="form col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+      <h2>Contact</h2>
+      <form method="post" name="contact" action="contact.php">
+        <div class="form-group">
+            <input type="name" class="form-control" name="name" id="name" placeholder="Nom" required/>
+        </div>
+        <div class="form-group">
+            <input type="phone" class="form-control" name="phone" id="phone" placeholder="Numéro de téléphone" required/>
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Adresse e-mail" required/>
+        </div>
+        <div class="form-group">
+            <textarea type="text" class="form-control" name="text" id="text" placeholder="Votre message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+    </div>
+    <div class="info row col-lg-8 offset-lg-2 col-xs-12">
+      <div class="content col-4">
+        <img class="icon" alt="Phone icon" src="public/images/icons/phone.svg">
+        <div class="information">
+          <a href="tel:+33668758066">06.68.75.80.66</a>
+          <a href="mailto:belamazone@orange.fr">belamazone@orange.fr</a>
+        </div>
+      </div>
+      <div class="content col-4">
+        <img class="icon" alt="Time icon" src="public/images/icons/time.svg">
+        <div class="information">
+          Du Lundi au Samedi
+          sur RDV
+          <a target="_blank" href="https://www.facebook.com/belleamazone33/" class="facebook"><img src="public/images/icons/facebook.svg">Rejoignez-nous</a>
+        </div>
+      </div>
+      <div class="content col-4">
+        <img class="icon" alt="location icon" src="public/images/icons/location.svg">
+        <div class="information" style="padding-top: 0;">
+            2 avenue du bas vallon
+            33980 Audenge
+            France
+        </div>
+      </div>
     </div>
   </section>
 </body>

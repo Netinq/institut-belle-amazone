@@ -1,0 +1,101 @@
+#contact
+{
+  min-height: 100vh;
+}
+#contact::before
+{
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(3px);
+}
+
+form
+{
+  background-color: rgba(225, 227, 219, 0.25);
+  padding: 25px;
+}
+#contact .form
+{
+  margin-top: 15vh;
+  margin-bottom: 25vh;
+}
+#contact .form h2
+{
+  color: #E1E3DB;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+#contact .form span
+{
+  color: #56A53C;
+  font-size: 1.1em;
+  float: right;
+  user-select: none;
+}
+
+.form-group{
+	position:relative;
+	margin-bottom: 25px !important;
+}
+.form-group label{
+	position:absolute;
+	top: 11px;
+	left: 12px;
+	font-size: 1em;
+	color: #56A53C;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+  user-select: none;
+}
+.form-group input{ 
+  border: none;
+  background-color: #ffffff;
+  border-bottom:2px solid #56A53C;  
+  font-size: .9em;
+  height: 45px;
+  color: #272727;
+}
+.form-group textarea{ 
+  border: none;
+  background-color: #ffffff;
+  border-bottom:2px solid #56A53C;  
+  font-size: .9em;
+  height: 145px;
+  color: #272727;
+}
+.form-group input:focus
+{
+  border-color: #56A53C;
+}
+.form-group input:focus ~ label,
+.form-group input:valid ~ label {
+	top:-15px;
+	font-size: 1.1em;
+  color: #56A53C;
+  background-color: #ffffff;
+}
+button
+{
+  display: flex;
+  background-color: #56A53C !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  border-radius: 15px !important;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+button:focus, button:active
+{
+  border: none;
+  outline: none;
+}

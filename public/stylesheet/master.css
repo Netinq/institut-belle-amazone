@@ -16,6 +16,7 @@ section
   width: 100vw;
   margin: 0 !important;
   padding: 0;
+  position: relative;
 }
 
 header
@@ -75,7 +76,7 @@ header ul a:hover li
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-@media screen and (max-width: 768px)
+@media screen and (max-width: 991px)
 {
   .info
   {
@@ -89,17 +90,6 @@ header ul a:hover li
   padding-left: 25px;
   text-align: center;
 }
-@media screen and (max-width: 768px)
-{
-  .info
-  {
-    height: auto;
-  }
-  .info .content
-  {
-    flex-direction: column;
-  }
-}
 .info .content .icon
 {
   margin-top: calc(50px - (35px/2));
@@ -111,25 +101,52 @@ header ul a:hover li
   white-space: pre-line;
   margin-left: 15Px;
   color: #ffffff;
-  font-size: .9em;
+  font-size: .8em;
   text-decoration: none;
   padding-top: 5px;
   display: inline-block;
   text-align: left;
+}
+.facebook 
+{
+  margin-top: 15px;
+  display: inline-block;
+  font-size: .8em !important;
+  color: #3b5998 !important;
+}
+@media screen and (max-width: 768px)
+{
+  .info .content .information
+  {
+    font-size: .7em;
+    margin-left: 0;
+    text-align: center;
+  }
+  .info
+  {
+    height: auto;
+  }
+  .info .content
+  {
+    flex-direction: column;
+  }
+  .info .content .icon
+  {
+    margin-top: calc(15px);
+    height: 25px;
+  }
+  .facebook 
+  {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: .7em !important;
+  }
 }
 .info .content .information a, .info .content .information a:visited, .info .content .information a:active
 {
   color: #ffffff;
   font-size: .9em;
   text-decoration: none;
-}
-
-.facebook 
-{
-  margin-top: 15px;
-  display: inline-block;
-  font-size: .6em;
-  color: #3b5998 !important;
 }
 .facebook img
 {
