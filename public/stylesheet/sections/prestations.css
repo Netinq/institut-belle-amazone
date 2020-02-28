@@ -1,0 +1,75 @@
+#prestations
+{
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,255,0.75), rgba(255,255,255,0.75)), 
+  url('../../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+  text-align: center;
+}
+
+#prestations .prestations
+{
+  padding-top: 75px;
+  font-family: "Corbel";
+  margin-bottom: 50px;
+}
+#prestations .prestations h2
+{
+  color: #56A53C;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  margin-bottom: 50px;
+}
+.prex-box
+{
+  margin: 25px;
+  width: 100%;
+  height: 150px;
+  background-color: #ffffff;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.prex-box img
+{
+  height: 150px;
+}
+.sub-box {
+  padding: 15px;
+  padding-left: 35px;
+  text-align: left;
+}
+.sub-box h3
+{
+  color: #56A53C;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+.sub-box p
+{
+  font-size: .9em;
+  color: #313131;
+  font-family: "Corbel";
+}
+@media screen and (max-width: 768px)
+{
+  .prex-box
+  {
+    margin: 25px;
+    width: calc(100% - 50px);
+    height: 175px;
+  }
+  .prex-box img
+  {
+    height: 175px;
+  }
+}

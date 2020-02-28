@@ -47,6 +47,7 @@
 
     <link rel="stylesheet" href="public/stylesheet/sections/home.css">
     <link rel="stylesheet" href="public/stylesheet/sections/institut.css">
+    <link rel="stylesheet" href="public/stylesheet/sections/prestations.css">
     <link rel="stylesheet" href="public/stylesheet/sections/tarif.css">
     <link rel="stylesheet" href="public/stylesheet/sections/gift.css">
     <link rel="stylesheet" href="public/stylesheet/sections/contact.css">
@@ -58,16 +59,16 @@
   <header>
     <ul>
       <a href="#institut"><li>l'institut</li></a>
-      <a href="#"><li>soins</li></a>
-      <a href="#"><li>tarifs</li></a>
-      <a href="#"><li>cadeau</li></a>
+      <a href="#prestations"><li>soins</li></a>
+      <a href="#tarif"><li>tarifs</li></a>
+      <a href="#gift"><li>cadeau</li></a>
       <a href="#contact"><li>contact</li></a>
     </ul>
   </header>
   <section id="home" class="row">
     <div class="main col-md-6 offset-md-3 col-xs-10 offset-xs-1 col-sm-8 offset-sm-2">
       <img id="title" alt="Institut de beauté, Belle Amazone" src="public/images/elems/title.png">
-      <a href="#institut"><button id="discover">découvrir les soins <img src="public/images/icons/arrow-right.svg"></button></a>
+      <a href="#prestations"><button id="discover">découvrir les soins <img src="public/images/icons/arrow-right.svg"></button></a>
     </div>
     <div class="info row col-lg-8 offset-lg-2 col-xs-12">
       <div class="content col-4">
@@ -114,10 +115,46 @@ Je reste à votre écoute afin de vous apporter des conseils, des soins adaptés
       <img alt="Institut's image" src="public/images/institut-4.png" class="ver bottom-right"/>
     </div>
   </section>
+  <section id="prestations" class="row">
+    <div class="prestations col-12 col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+      <h2>prestations</h2>
+      <div class="prex-box">
+        <img src="./public/images/soins/LES MASSAGES.jpg">
+        <div class="sub-box">
+          <h3>les massages</h3>
+          <p>Pour un moment unique de plénitude et de détente, vous trouverez des manoeuvres douces de glissés profonds plus ou moins appuyées en fonction de vos attentes et de vos envies avec le massage Egyptien d'excellence aux huiles essentielles, californien, sportif deep tissus, réflexologie plantaire...</p>
+        </div>
+      </div>
+      <div class="prex-box">
+        <img src="./public/images/soins/soin-visage-2-estime-et-sens.jpg">
+        <div class="sub-box">
+          <h3>soins visage et corps</h3>
+          <p>Chaque personne est unique, femmes ,hommes, adolescents donc un soin ciblé et performant pour une détente absolue et un éclat de peau immédiat associant une expérience sensorielle inédite réalisé avec la marque cosmétiques BIO Estime&Sens" à découvrir en cabine...</p>
+        </div>
+      </div>
+      <div class="prex-box">
+        <img src="./public/images/soins/LES EPILATIONS.png">
+        <div class="sub-box">
+          <h3>les épilations</h3>
+          <p>Pour ELLE ou pour LUI l'épilation à la cire Perron Rigot marque Française n°1 de qualité et de confort est un véritable protocole de soin avant et après adapté à chaque personne et chaque zone afin de répondre à tous les besoins..</p>
+        </div>
+      </div>
+      <div class="prex-box">
+        <img src="./public/images/soins/SOINS DES ONGLES .jpg">
+        <div class="sub-box">
+          <h3>soins des ongles</h3>
+          <p>Des MAINS et  PIEDS parfais avec des soins complets (limage, cuticules, gommage, masque réparateur, modelage, base)
+            et pourquoi pas une pose de vernis simple ou semi-permanent ? il ne vous restera plus qu'a choisir la couleur...</p>
+        </div>
+      </div>
+    </div>
+  </section>
   <section id="tarif" class="row">
     <div class="tarif col-10 offset-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
       <h2>Tarif</h2>
-      <img src="changer-les-tarifs/tarifs.png">
+      <a href="changer-les-tarifs/tarifs.png">
+        <img src="changer-les-tarifs/tarifs.png" >
+      </a>
     </div>
   </section>
   <section id="gift" class="row">
