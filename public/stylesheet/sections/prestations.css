@@ -62,14 +62,24 @@
 }
 @media screen and (max-width: 768px)
 {
+  #prestations .prestations h2
+  {
+    margin-bottom: 100px;
+  }
   .prex-box
   {
     margin: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     width: calc(100% - 50px);
-    height: 175px;
+    height: auto;
+    flex-direction: column;
   }
   .prex-box img
   {
-    height: 175px;
+    height: 100px;
+    width: 100px;
+    margin-left: calc(50% - 50px);
+    margin-top: -50px;
   }
 }
