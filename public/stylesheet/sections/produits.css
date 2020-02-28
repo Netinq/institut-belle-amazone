@@ -1,0 +1,55 @@
+#tarif
+{
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,255,0.75), rgba(255,255,255,0.75)), 
+  url('../../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+}
+
+.tarif
+{
+  margin-top: 50px;
+  text-align: center;
+}
+#tarif .tarif h2
+{
+  color: #56A53C;
+  font-weight: bold;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+#tarif .tarif img
+{
+  width: 100%;
+  border-top: 2px solid #56A53C;
+  margin-bottom: 50px;
+}#produits
+{
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,255,0.75), rgba(255,255,255,0.75)), 
+  url('../../images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+}
+
+.produits
+{
+  margin-top: 50px;
+  text-align: center;
+}
+#produits .produits h2
+{
+  color: #56A53C;
+  font-weight: bold;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
