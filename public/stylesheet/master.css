@@ -49,12 +49,20 @@ header ul li
 }
 @media screen and (max-width: 768px)
 {
-  header{
+  header
+  {
     width: 100vw;
+    height: auto;
+  }
+  header ul {
+    width: 100vw;
+    height: auto;
+    display: flex;
   }
   header ul li
   {
-    font-size: .6em;
+    font-size: .45rem;
+    display: flexbox;
   }
 }
 
